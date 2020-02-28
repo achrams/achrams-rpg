@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./hoverstyle.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script>
+        alert("Welcome to my Text-Based RPG Website.\nThis is Charlie Version, not even a Beta.\nSo, please send me an advice via ramadhanovic@gmail.com\nif you have some idea.");
+    </script>
+    <header>
+        <h1 style="color: rgb(194, 255, 96)">Tales of the Ancients</h1>
+        <label id="classes" for="classes" style="font-size: larger;"><b>CHOOSE HERO</b></label><br><br>
+    </header>
+    <div id="char_input_data" onclick="style.display = 'none'">
+        <img type="image" id="knight" src="./assets/warrior.png" height="200px" width="125px" title="Legion Commander">
+        <img type="image" id="ranger" src="./assets/ranger.jpg" height="200px" width="125px" title="Drow Ranger">
+        <img type="image" id="mage" src="./assets/mage.jpg" height="200px" width="125px" title="Lina Inverse">
+    </div>
+    <h3 id="gameintro" style="color: blanchedalmond; text-align: center;">The Ancients has fallen. the Radiant has fallen to the Dire.<br> But, there is one hero that survived the battle and hid from the Dire's army.<br> but today, that hero will be back and reclaim the Radiant's.</h3>
+    <div id="dataTable">
+        <div class="char_info">
+            <h3 id="char_name"></h3>
+            <p id="char_job"></p>
+            <p id="char_lvl"></p>
+            <p id="char_hp"></p>
+            <p id="char_atk"></p>
+            <p id="char_deff"></p>
+            <p id="char_dodge"></p>
+            <p id="char_money"></p>
+        </div>
+        <div class="retail">
+            <div id="itemlist">
+                <img id="potion" src="./assets/hp_potion.png" height="100px" width="100px">
+                <p>Hp Potion<br>Price : 100</p>
+            </div>
+            <button id="cancel_buy">CLOSE</button>
+        </div>
+        <div class=" battlepanel">
+            <div id="action_panel">
+                <img type="image" id="dungeon" src="./assets/battledungeon.png" height="250px " width="175px " title="dungeon raid " onclick="style.display='none' ">
+                <h4 style="font-size: 18px; color: rgb(0, 0, 0); ">BATTLE</h4>
+            </div>
+            <div id="momon">
+                <img src="./assets/monster1.jpg" id="momonster"><br>
+                <button id="hit_button">attack</button>
+                <button id="cancel_button">run away</button>
+                <p id="momon_name">-</p>
+                <p id="momon_hp">-</p>
+                <p id="battle_interaction">-</p>
+            </div>
+        </div>
+        <div class="shoplist">
+            <img src="./assets/shop.png " id="shop" height="120px " width="70px ">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+
+</body>
+
+</html>

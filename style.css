@@ -1,0 +1,115 @@
+    body {
+        position: relative;
+        top: 0;
+        background-image: url('./assets/bg.jpg');
+        padding: 0;
+        margin: 0;
+        color: blanchedalmond;
+        background-size: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    #classes {
+        margin-left: 600px;
+    }
+    
+    #char_input_data {
+        margin-top: 20px;
+        width: 390px;
+        height: 200px;
+        color: blanchedalmond;
+        border: blanchedalmond;
+        /* border-style: groove; */
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #char_name {
+        color: blanchedalmond;
+    }
+    
+    #char_mage {
+        display: block;
+    }
+    
+    #dataTable {
+        display: none;
+        border: blanchedalmond;
+        border-style: none;
+        width: max;
+        height: max;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    
+    .char_info {
+        margin: 0;
+        border: blanchedalmond;
+        border-style: groove;
+        width: 250px;
+        padding: 10px;
+    }
+    
+    .battlepanel {
+        margin-top: -290px;
+        text-align: center;
+    }
+    
+    #dungeon {
+        margin-bottom: 10px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    
+    #momonster {
+        height: 250px;
+        width: 400px;
+        opacity: 0.3;
+    }
+    
+    #momon {
+        height: 500px;
+        width: 400px;
+        display: none;
+        margin: 0 auto;
+        background-color: black;
+        margin-top: -50px;
+    }
+    
+    #battle_interaction {
+        width: 400px;
+        height: 110px;
+    }
+    
+    .retail {
+        margin-top: -300px;
+        width: auto;
+        position: fixed;
+    }
+    
+    #itemlist {
+        margin-left: 500px;
+        width: fit-content;
+        display: none;
+    }
+    
+    #shop {
+        margin-top: 80px;
+        border-radius: 25%;
+    }
+    
+    #potion {
+        margin-left: -20px;
+    }
+    
+    #cancel_buy {
+        width: 150px;
+        height: 70px;
+        margin-top: 300px;
+        margin-left: 600px;
+        display: none;
+    }

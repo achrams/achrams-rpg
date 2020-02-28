@@ -1,0 +1,39 @@
+#knight:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#ranger:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#mage:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#shop:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#inventory:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#dungeon:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#shop:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+#potion:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
